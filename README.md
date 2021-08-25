@@ -58,5 +58,6 @@ Para cadastrar um novo filme:
 
 A API também pode ser acessada pelo Swagger, mas antes precisa cadastrar um usuário no postman.
 http://localhost:8080/swagger-ui/
+
 A API já esta configurada para fazer o redirecionamento para o link acima caso seja acessado localhost:8080.
 
