@@ -32,7 +32,7 @@ public class FilmeController {
 	@GetMapping("/total")
 	public String respTotal() {
 		int getFilme = filmeRepository.findAll().size();
-		return "Temos " + getFilme + " em nosso catálogo.";
+		return "Temos " + getFilme + " filmes em nosso catálogo.";
 	}
 	
 	@GetMapping
