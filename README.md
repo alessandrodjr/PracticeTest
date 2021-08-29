@@ -1,38 +1,38 @@
 # PracticeTest - Loja
 
-ï Para construÁ„o do projeto foi utilizado o framework Spring Boot
+‚Ä¢ Para constru√ß√£o do projeto foi utilizado o framework Spring Boot
 
-ï O banco de dados utilizado foi o mySQL, ao executar o sistema n„o esqueÁa de verificar a senha do banco.
+‚Ä¢ O banco de dados utilizado foi o mySQL, ao executar o sistema n√£o esque√ßa de verificar a senha do banco.
 
-ï Todas as dependÍncias do projeto est„o no arquivo pom.xml
+‚Ä¢ Todas as depend√™ncias do projeto est√£o no arquivo pom.xml
 
-ï Para fazer o clone do projeto È preciso abrir o git e usar o comando abaixo:
+‚Ä¢ Para fazer o clone do projeto √© preciso abrir o git e usar o comando abaixo:
 
 git clone https://github.com/alessandrodjr/PracticeTest.git
 
-ï O projeto est· na branch tgid
+‚Ä¢ O projeto est√° na branch tgid
 
-ï Depois disso È preciso fazer a importaÁ„o dentro da IDE
+‚Ä¢ Depois disso √© preciso fazer a importa√ß√£o dentro da IDE
 
-O projeto tem 4 tabelas (Usu·rios, Produtos, Venda e ItemVenda)
+O projeto tem 4 tabelas (Usu√°rios, Produtos, Venda e ItemVenda)
 
-Para criar um novo usu·rio È passar os seguintes par‚metros: { "nome": "string", "email" : "email", "cpf" : "string" }
+Para criar um novo usu√°rio √© passar os seguintes par√¢metros: { "nome": "string", "email" : "email", "cpf" : "string" }
 
 Rota: http://localhost:8080/usuarios
 
-Para Criar um novo produto È preciso passar os seguintes par‚metros: "nome": "Lapis", "preco": 2.30, "quantidade": 5, "usuario": { "id": 2 }
+Para Criar um novo produto √© preciso passar os seguintes par√¢metros: "nome": "Lapis", "preco": 2.30, "quantidade": 5, "usuario": { "id": 2 }
 
 Rota: http://localhost:8080/produtos
 
-Para cadastrar uma nova venda pe preciso passar os seguintes par‚metros: {"nomeCliente": "String"}
+Para cadastrar uma nova venda √© preciso passar os seguintes par√¢metros: {"nomeCliente": "String"}
 
 Rota: http://localhost:8080/vendas
 
-Para cadastrar um novo item para venda È preciso passar os seguintes par‚metros: { "quantidade": 1, "produto": { "id": 2 }, "venda": { "id": 2 }}
+Para cadastrar um novo item para venda √© preciso passar os seguintes par√¢metros: { "quantidade": 1, "produto": { "id": 2 }, "venda": { "id": 2 }}
 
 Rota: http://localhost:8080/itensVenda
 
 
-A API tambÈm pode ser acessada pelo Swagger, mas antes precisa cadastrar um usu·rio no postman. http://localhost:8080/swagger-ui/
+A API tamb√©m pode ser acessada pelo Swagger. http://localhost:8080/swagger-ui/
 
-A API j· esta configurada para fazer o redirecionamento para o link acima caso seja acessado localhost:8080.
+A API j√° esta configurada para fazer o redirecionamento para o link acima caso seja acessado localhost:8080.
